@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "pydocstringformatter_app"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = ">3.9.7,<3.11"
 streamlit = "^1.12.2"
 pydocstringformatter = "^0.7.2"
 
