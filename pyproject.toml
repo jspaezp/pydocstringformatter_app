@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pydocstringformatter-app"
+version = "0.1.0"
+description = ""
+authors = ["J. Sebastian Paez <jspaezp@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "pydocstringformatter_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.12.2"
+pydocstringformatter = "^0.7.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
